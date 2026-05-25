@@ -64,13 +64,14 @@ seoclaw audit https://yourdomain.com
 # Competitor keyword gap — no API key needed
 seoclaw gap https://yourdomain.com https://competitor.com
 
-# AI commands — use any provider you already have
-export OPENAI_API_KEY=your_key        # OpenAI (GPT-4o, GPT-4o-mini)
-export ANTHROPIC_API_KEY=your_key     # Anthropic (Claude)
-export GROQ_API_KEY=your_key          # Groq (free tier available)
-export DEEPSEEK_API_KEY=your_key      # DeepSeek (very affordable)
-export GEMINI_API_KEY=your_key        # Google Gemini
-export MISTRAL_API_KEY=your_key       # Mistral AI
+# AI commands — works with any AI provider or local model
+# Cloud providers (set whichever you have):
+export OPENAI_API_KEY=your_key        # OpenAI, DeepSeek, Mistral, Groq, Gemini, etc.
+export ANTHROPIC_API_KEY=your_key     # Anthropic Claude
+
+# Local AI (Ollama, LM Studio, any OpenAI-compatible endpoint):
+export OPENAI_BASE_URL=http://localhost:11434/v1
+export OPENAI_API_KEY=ollama
 
 seoclaw meta https://yourdomain.com
 seoclaw blog "best CRM software for small business 2025"
