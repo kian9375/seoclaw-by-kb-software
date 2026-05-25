@@ -65,10 +65,12 @@ seoclaw audit https://yourdomain.com
 seoclaw gap https://yourdomain.com https://competitor.com
 
 # AI commands — use any provider you already have
-export OPENAI_API_KEY=your_key        # OpenAI
-export ANTHROPIC_API_KEY=your_key     # Claude
+export OPENAI_API_KEY=your_key        # OpenAI (GPT-4o, GPT-4o-mini)
+export ANTHROPIC_API_KEY=your_key     # Anthropic (Claude)
 export GROQ_API_KEY=your_key          # Groq (free tier available)
-export KIANBOT_API_KEY=your_key       # KianBot.ai
+export DEEPSEEK_API_KEY=your_key      # DeepSeek (very affordable)
+export GEMINI_API_KEY=your_key        # Google Gemini
+export MISTRAL_API_KEY=your_key       # Mistral AI
 
 seoclaw meta https://yourdomain.com
 seoclaw blog "best CRM software for small business 2025"
