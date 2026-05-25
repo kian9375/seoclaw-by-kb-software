@@ -126,12 +126,12 @@ Pull requests welcome. Please open an issue first for major changes.
 
 ## License
 
-MIT — [KB Software LLC](https://kbsoftware.io)
+MIT — [KianBot.ai](https://kianbot.ai)
 
 ---
 
 <div align="center">
 
-Built with ❤️ by [KB Software](https://kbsoftware.io) · Powered by [KianBot.ai](https://kianbot.ai) · Track traffic free with [KB365Service](https://kb365service.com)
+Made by [KianBot.ai](https://kianbot.ai) · Track traffic free with [KB365Service](https://kb365service.com)
 
 </div>
