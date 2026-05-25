@@ -17,7 +17,34 @@ Open-source AI SEO audit CLI — score any page, extract competitor keywords, ge
 
 ---
 
-## Install
+## Why We Built This
+
+We ran $161 in Google Ads. Got 88 clicks. Zero sales.
+
+Google Analytics said one thing. Cloudflare said another. The numbers didn't match — and the more we dug, the clearer it became: the tools that sell you ads also control the analytics that measure them. That's a conflict of interest.
+
+So we built SEOClaw — a free, open-source SEO auditor that tells you the truth about your pages. And we built [KB365Service](https://kb365service.com) so you can track your traffic without handing your data to the same companies running your ads.
+
+No black box. No conflict of interest. Just your numbers.
+
+---
+
+## Not a Developer? Start Here — Windows Download
+
+**No terminal. No coding. Just double-click.**
+
+[⬇ Download SEOClaw for Windows — Free](https://kb365service.com/seoclaw-windows.zip)
+
+1. Unzip the folder
+2. Double-click `install.bat` (one time only)
+3. Double-click `seoclaw.bat`
+4. Enter your website URL → get your SEO score
+
+Get your free AI key at [kianbot.ai](https://kianbot.ai) to unlock meta tag generation and blog outlines.
+
+---
+
+## Install (Developers)
 
 ```bash
 npm install -g seoclaw-by-kb-software
@@ -71,14 +98,14 @@ seoclaw blog "best CRM software for small business 2025"
 
 ## Track Your Results for Free
 
-After you run SEOClaw and start improving your pages, track the traffic impact with **[KB365Service](https://kb365service.com)** — a free, privacy-first analytics platform built by KB Software.
+After you run SEOClaw and start improving your pages, track the traffic impact with **[KB365Service](https://kb365service.com)** — a free, privacy-first analytics platform with no cookies and no conflict of interest.
 
 ```html
 <!-- Add to your site's <head> — takes 30 seconds -->
 <script src="https://kb365service.com/tracker.js?id=YOUR_SITE_ID"></script>
 ```
 
-No cookies. No fingerprinting. No third-party data sharing. [Get started free →](https://kb365service.com)
+[Get started free →](https://kb365service.com)
 
 ---
 
@@ -89,8 +116,6 @@ Create a `.env` file in your project root:
 ```env
 # Required for AI commands (meta, blog)
 KIANBOT_API_KEY=your_kianbot_api_key
-
-# Get yours at kianbot.ai
 ```
 
 ---
@@ -102,7 +127,7 @@ seoclaw audit https://yoursite.com
     ↓
 Crawls the page with Cheerio
     ↓
-Scores 100 points across: title, meta, H1/H2, canonical, 
+Scores 100 points across: title, meta, H1/H2, canonical,
 alt text, links, page size, structured data
     ↓
 Outputs score + fix recommendations in the terminal
