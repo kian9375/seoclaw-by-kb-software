@@ -76,14 +76,6 @@ seoclaw blog "best CRM software for small business 2025"
 
 ---
 
-## Get Your KianBot API Key
-
-1. Sign up free at [kianbot.ai](https://kianbot.ai)
-2. Go to **Settings → API Key**
-3. Copy your key and set `KIANBOT_API_KEY=your_key` in `.env`
-
----
-
 ## Track Your Results for Free
 
 After you run SEOClaw and start improving your pages, track the traffic impact with **[KB365Service](https://kb365service.com)** — a free, privacy-first analytics platform with no cookies and no conflict of interest.
