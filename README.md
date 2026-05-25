@@ -97,17 +97,6 @@ After you run SEOClaw and start improving your pages, track the traffic impact w
 
 ---
 
-## Config
-
-Create a `.env` file in your project root:
-
-```env
-# Required for AI commands (meta, blog)
-KIANBOT_API_KEY=your_kianbot_api_key
-```
-
----
-
 ## How It Works
 
 ```
