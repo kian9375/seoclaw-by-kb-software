@@ -17,18 +17,6 @@ Open-source AI SEO audit CLI — score any page, extract competitor keywords, ge
 
 ---
 
-## Why We Built This
-
-We ran $161 in Google Ads. Got 88 clicks. Zero sales.
-
-Google Analytics said one thing. Cloudflare said another. The numbers didn't match — and the more we dug, the clearer it became: the tools that sell you ads also control the analytics that measure them. That's a conflict of interest.
-
-So we built SEOClaw — a free, open-source SEO auditor that tells you the truth about your pages. And we built [KB365Service](https://kb365service.com) so you can track your traffic without handing your data to the same companies running your ads.
-
-No black box. No conflict of interest. Just your numbers.
-
----
-
 ## Not a Developer? Start Here — Windows Download
 
 **No terminal. No coding. Just double-click.**
@@ -160,3 +148,4 @@ MIT — [KianBot.ai](https://kianbot.ai)
 Made by [KianBot.ai](https://kianbot.ai) · Track traffic free with [KB365Service](https://kb365service.com)
 
 </div>
+
