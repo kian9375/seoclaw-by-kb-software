@@ -13,7 +13,7 @@ Open-source AI SEO audit CLI — score any page, extract competitor keywords, ge
 
 ## Demo
 
-▶ [Watch the full demo](https://kianbot.ai) — see SEOClaw audit a real site live.
+[![SEOClaw Demo](https://img.youtube.com/vi/Ik8Pr5rlqD0/maxresdefault.jpg)](https://youtu.be/Ik8Pr5rlqD0)
 
 ---
 
